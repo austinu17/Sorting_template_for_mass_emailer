@@ -96,3 +96,6 @@ final_2['Partner Number']=final_2['Partner Number'].astype(object)
 final_final= pd.merge(left=final, right=final_2, on=['Partner Number','What CKI Position Do You Have?'])
 
 final_final.to_csv('Output_pairings.csv')
+
+
+#Copyright 2020, Austin Underwood, All rights reserved.
